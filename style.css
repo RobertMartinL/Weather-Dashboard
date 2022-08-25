@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(188, 66, 188),rgb(219, 77, 162),rgb(241, 33, 82));
+}
+
+header {
+    background-color: rgb(95, 19, 112);
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#search-box {
+    display: flex;
+    justify-content: center;
+}
+
+#search-bar {
+    background-color: rgb(188, 66, 188);
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+    margin-right: 5px;
+    
+}
+
+::placeholder {
+    color: white;
+}
+
+#search-button {
+    background-color: rgb(188, 66, 188);
+    color: white;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+#big-container {
+    justify-content: center;
+    margin: auto;
+    height: 70vh;
+    margin-top: 15px;
+}
+
+h2 {
+    justify-content: center;
+    color: white;
+}
+
+#boxes {
+    display: flex;
+    margin: auto;
+}
+
+.weather-box {
+    height: 400px;
+    text-align: center;
+    background-color: aqua;
+    margin: auto;
+}
+
+#idk {
+    justify-items: center;
+}
+
+h3 {
+    justify-content: center;
+    color: white;
+}
+
+h4 {
+    justify-content: center;
+    color: white;
+}
+
+#current-weather-box {
+    margin-top: 80px;
+}
